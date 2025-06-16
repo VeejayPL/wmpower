@@ -4,6 +4,7 @@
   --gray-white: #f5f5f5;
   --green: #489339;
   --gold: #ffbf00;
+  --montserrat: "Montserrat", sans-serif, system-ui;
 }
 
 *,
@@ -16,6 +17,11 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--montserrat);
 }
 
 /*----------------- Utils -----------------*/
@@ -60,7 +66,6 @@ ul {
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .nav-menu {
@@ -71,8 +76,9 @@ ul {
 }
 
 .nav-link {
-  transition: 300ms ease-out;
-  font-weight: bold;
+  transition: 200ms ease-out;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .nav-button {
@@ -246,6 +252,10 @@ svg.active .svg-elem-8 {
 
 @media (max-width: 1024px) {
   /*---------------- HEADER Section ---------------*/
+  .logo {
+    width: 150px;
+  }
+
   .nav-button {
     display: block;
   }
@@ -253,7 +263,7 @@ svg.active .svg-elem-8 {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 84px;
+    top: 76px;
     gap: 0;
     flex-direction: column;
     width: 100%;
