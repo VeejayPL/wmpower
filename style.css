@@ -42,15 +42,6 @@ button {
   border: none;
 }
 
-.green.screwd {
-  background: var(--green);
-  color: var(--white);
-  transform: skew(0deg, -10deg);
-}
-.container.screwd {
-  transform: skew(0deg, 10deg);
-}
-
 .title {
   padding: 30px 0;
   font-size: 36px;
@@ -176,8 +167,8 @@ button {
   background: var(--green);
   color: var(--white);
   transform: skew(0deg, 5deg);
-  margin-top: 100px;
-  padding: 50px 0;
+  margin-top: 50px;
+  padding: 50px 0 100px 0;
 }
 
 .container.screwd {
@@ -195,6 +186,26 @@ button {
   padding: 100px 0;
   font-size: 20px;
   font-weight: 500;
+}
+
+.banners {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banners p {
+  background: var(--gray);
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.banners span {
+  color: var(--gold);
 }
 
 svg .svg-elem-1 {
@@ -387,12 +398,23 @@ svg.active .svg-elem-8 {
 
   /*---------------- ABOUT Section ---------------*/
   .green.screwd {
-    margin-top: 50px;
     padding: 25px 0;
   }
 
   .para {
     gap: 30px;
     padding: 50px 0;
+  }
+
+  .banners p {
+    width: 180px;
+    height: 90px;
+    padding: 20px 0;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .banners p:first-of-type + p {
+    padding: 12px 0;
   }
 }
