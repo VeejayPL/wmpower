@@ -38,6 +38,9 @@ a:hover {
 ul {
   list-style: none;
 }
+button {
+  border: none;
+}
 
 /*----------------- HEADER Section -----------------*/
 
@@ -47,7 +50,8 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: 10px;
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--gray);
 }
 
 .container {
@@ -85,7 +89,7 @@ ul {
   display: none;
   margin: 5px;
   background: transparent;
-  border: 3px solid var(--gray, #000);
+  /* border: 3px solid var(--gray, #000); */
   border-radius: 8px;
   overflow: hidden;
   --button-color: var(--gray);
@@ -253,7 +257,11 @@ svg.active .svg-elem-8 {
 @media (max-width: 1024px) {
   /*---------------- HEADER Section ---------------*/
   .logo {
-    width: 150px;
+    width: 125px;
+  }
+
+  .header {
+    padding: 10px 0px;
   }
 
   .nav-button {
@@ -263,7 +271,7 @@ svg.active .svg-elem-8 {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 76px;
+    top: 91px;
     gap: 0;
     flex-direction: column;
     width: 100%;
