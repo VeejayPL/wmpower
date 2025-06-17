@@ -42,6 +42,20 @@ button {
   border: none;
 }
 
+.green.screwd {
+  background: var(--green);
+  color: var(--white);
+  transform: skew(0deg, -10deg);
+}
+.container.screwd {
+  transform: skew(0deg, 10deg);
+}
+
+.title {
+  padding: 30px 0;
+  font-size: 36px;
+  text-align: center;
+}
 /*----------------- HEADER Section -----------------*/
 
 .header {
@@ -119,9 +133,6 @@ button {
 /*----------------- MAIN Section -----------------*/
 
 .main.title {
-  padding: 30px 0;
-  font-size: 36px;
-  text-align: center;
   color: var(--gray);
 }
 
@@ -157,6 +168,33 @@ button {
 
 .card-title span {
   color: var(--green);
+}
+
+/*----------------- ABOUT Section -----------------*/
+
+.green.screwd {
+  background: var(--green);
+  color: var(--white);
+  transform: skew(0deg, 5deg);
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
+.container.screwd {
+  transform: skew(0deg, -5deg);
+}
+
+.about.title {
+  border-bottom: 1px solid var(--white);
+}
+
+.para {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 100px 0;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 svg .svg-elem-1 {
@@ -338,12 +376,23 @@ svg.active .svg-elem-8 {
   /* background: var(--gray); */
   /* } */
   /*---------------- MAIN Section ---------------*/
-  .main.title {
+  .title {
     font-size: 28px;
     padding: 20px 0;
   }
 
   .grid-cards {
     gap: 40px;
+  }
+
+  /*---------------- ABOUT Section ---------------*/
+  .green.screwd {
+    margin-top: 50px;
+    padding: 25px 0;
+  }
+
+  .para {
+    gap: 30px;
+    padding: 50px 0;
   }
 }
