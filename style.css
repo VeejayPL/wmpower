@@ -45,10 +45,10 @@ button {
 /*----------------- HEADER Section -----------------*/
 
 .header {
-  background: transparent;
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* background: transparent; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
   width: 100%;
   padding: 20px 0px;
   border-bottom: 1px solid var(--gray);
@@ -88,7 +88,7 @@ button {
 .nav-button {
   display: none;
   margin: 5px;
-  background: transparent;
+  background: var(--white);
   /* border: 3px solid var(--gray, #000); */
   border-radius: 8px;
   overflow: hidden;
@@ -114,6 +114,15 @@ button {
 .nav-button[aria-expanded="true"] .line {
   stroke-dasharray: 60 105 60 300;
   stroke-dashoffset: -90;
+}
+
+/*----------------- MAIN Section -----------------*/
+
+.main.title {
+  padding: 30px 0;
+  font-size: 36px;
+  text-align: center;
+  color: var(--gray);
 }
 
 svg .svg-elem-1 {
@@ -261,6 +270,9 @@ svg.active .svg-elem-8 {
   }
 
   .header {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
     padding: 10px 0px;
   }
 
@@ -291,4 +303,9 @@ svg.active .svg-elem-8 {
   /* .header.active { */
   /* background: var(--gray); */
   /* } */
+  /*---------------- MAIN Section ---------------*/
+  .main.title {
+    font-size: 28px;
+    padding: 20px 0;
+  }
 }
