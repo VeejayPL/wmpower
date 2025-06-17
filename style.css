@@ -127,7 +127,9 @@ button {
 
 .grid-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 80px;
 }
 
 .card {
@@ -339,5 +341,9 @@ svg.active .svg-elem-8 {
   .main.title {
     font-size: 28px;
     padding: 20px 0;
+  }
+
+  .grid-cards {
+    gap: 40px;
   }
 }
