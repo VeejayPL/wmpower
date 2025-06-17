@@ -353,6 +353,7 @@ svg.active .svg-elem-8 {
   }
 
   .header {
+    z-index: 1;
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -398,12 +399,15 @@ svg.active .svg-elem-8 {
 
   /*---------------- ABOUT Section ---------------*/
   .green.screwd {
-    padding: 25px 0;
+    padding-top: 35px;
+    padding-bottom: 60px;
   }
 
   .para {
     gap: 30px;
     padding: 50px 0;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .banners p {
@@ -411,7 +415,7 @@ svg.active .svg-elem-8 {
     height: 90px;
     padding: 20px 0;
     border-radius: 16px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
   }
   .banners p:first-of-type + p {
