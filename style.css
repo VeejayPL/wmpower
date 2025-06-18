@@ -231,6 +231,15 @@ button {
   padding-left: 55px;
 }
 
+/*----------------- CONTACT Section -----------------*/
+
+.gray.screwd {
+  background: var(--gray);
+  color: var(--white);
+  transform: skew(0deg, 5deg);
+  padding: 50px 0 100px 0;
+}
+
 svg .svg-elem-1 {
   stroke-dashoffset: 600.1483154296875px;
   stroke-dasharray: 600.1483154296875px;
