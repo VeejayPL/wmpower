@@ -186,6 +186,7 @@ button {
   padding: 100px 0;
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 .banners {
@@ -206,6 +207,28 @@ button {
 
 .banners span {
   color: var(--gold);
+}
+
+.grenton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.line {
+  border: 3px solid var(--white);
+  height: 120px;
+}
+.logo_grenton {
+  width: 245px;
+  padding-right: 30px;
+}
+
+.grenton p {
+  font-size: 28px;
+  font-weight: 600;
+  padding-left: 55px;
 }
 
 svg .svg-elem-1 {
@@ -420,5 +443,27 @@ svg.active .svg-elem-8 {
   }
   .banners p:first-of-type + p {
     padding: 12px 0;
+  }
+  .grenton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .line {
+    border: 2px solid var(--white);
+    height: 80px;
+  }
+  .logo_grenton {
+    width: 150px;
+    padding-right: 20px;
+  }
+
+  .grenton p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 40px;
   }
 }
