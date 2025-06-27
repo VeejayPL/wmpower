@@ -38,6 +38,7 @@ a:hover {
 ul {
   list-style: none;
 }
+
 button {
   border: none;
 }
@@ -238,6 +239,41 @@ button {
   color: var(--white);
   transform: skew(0deg, 5deg);
   padding: 50px 0 100px 0;
+}
+
+h1 + p {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact_details {
+  text-align: center;
+}
+
+.contact_svg {
+  height: 40px;
+  fill: var(--gold);
+  margin: 15px;
+}
+
+.rodo {
+  padding-top: 100px;
+  background: var(--gray);
+  text-align: center;
+}
+
+section a {
+  color: var(--white);
 }
 
 svg .svg-elem-1 {
