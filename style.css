@@ -35,7 +35,10 @@ a:hover {
   color: var(--green);
 }
 
-ul {
+header ul,
+header li,
+.grid-cards,
+.card {
   list-style: none;
 }
 
@@ -277,6 +280,46 @@ section a {
   padding-bottom: 140px;
   height: 100%;
   background: var(--gray);
+}
+
+/*----------------- Regulations Section -----------------*/
+
+.regulations,
+.regulations + p {
+  margin-top: 1rem;
+  color: var(--gray);
+  line-height: 1.5;
+  font-weight: 500;
+  list-style-position: inside;
+}
+.regulations ul {
+  list-style-type: lower-alpha;
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.regulations ul > ul {
+  list-style-type: disc;
+  margin-left: 1.8rem;
+}
+
+.regulations > ul > li {
+  margin-bottom: 1rem;
+}
+
+.regulations > li {
+  margin-bottom: 1rem;
+}
+
+.regulations + p {
+  margin: 4rem 0;
+}
+
+.regulations + p > a {
+  color: var(--gray);
+}
+.regulations + p > a:hover {
+  color: var(--green);
 }
 
 /*----------------- SVG Animation Section -----------------*/
