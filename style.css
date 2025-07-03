@@ -325,6 +325,8 @@ section a {
 /*----------------- SVG Animation Section -----------------*/
 
 svg .svg1-elem-1 {
+  stroke-width: 6;
+  stroke: var(--gray);
   stroke-dashoffset: 600.1483154296875px;
   stroke-dasharray: 600.1483154296875px;
   fill: transparent;
@@ -338,10 +340,12 @@ svg .svg1-elem-1 {
 
 svg.active .svg1-elem-1 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg1-elem-2 {
+  stroke: var(--green);
+  stroke-width: 2;
   stroke-dashoffset: 89.83856201171875px;
   stroke-dasharray: 89.83856201171875px;
   fill: transparent;
@@ -355,10 +359,11 @@ svg .svg1-elem-2 {
 
 svg.active .svg1-elem-2 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg1-elem-3 {
+  stroke: var(--green);
   stroke-dashoffset: 314.94940185546875px;
   stroke-dasharray: 314.94940185546875px;
   fill: transparent;
@@ -372,10 +377,11 @@ svg .svg1-elem-3 {
 
 svg.active .svg1-elem-3 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg1-elem-4 {
+  stroke: var(--green);
   stroke-dashoffset: 274.3633117675781px;
   stroke-dasharray: 274.3633117675781px;
   fill: transparent;
@@ -389,10 +395,12 @@ svg .svg1-elem-4 {
 
 svg.active .svg1-elem-4 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg1-elem-5 {
+  stroke: var(--gray);
+  stroke-width: 6;
   stroke-dashoffset: 716.9400024414062px;
   stroke-dasharray: 716.9400024414062px;
   fill: transparent;
@@ -406,7 +414,7 @@ svg .svg1-elem-5 {
 
 svg.active .svg1-elem-5 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg1-elem-6 {
@@ -423,7 +431,7 @@ svg .svg1-elem-6 {
 
 svg.active .svg1-elem-6 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg1-elem-7 {
@@ -440,7 +448,7 @@ svg .svg1-elem-7 {
 
 svg.active .svg1-elem-7 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg1-elem-8 {
@@ -457,11 +465,13 @@ svg .svg1-elem-8 {
 
 svg.active .svg1-elem-8 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 /* 2 */
 svg .svg2-elem-1 {
+  stroke: var(--gray);
+  stroke-width: 6;
   stroke-dashoffset: 254.90606689453125px;
   stroke-dasharray: 254.90606689453125px;
   fill: transparent;
@@ -475,10 +485,11 @@ svg .svg2-elem-1 {
 
 svg.active .svg2-elem-1 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg2-elem-2 {
+  stroke: var(--green);
   stroke-dashoffset: 128.88998413085938px;
   stroke-dasharray: 128.88998413085938px;
   fill: transparent;
@@ -492,10 +503,12 @@ svg .svg2-elem-2 {
 
 svg.active .svg2-elem-2 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg2-elem-3 {
+  stroke: var(--gray);
+  stroke-width: 6;
   stroke-dashoffset: 372.52130126953125px;
   stroke-dasharray: 372.52130126953125px;
   fill: transparent;
@@ -509,10 +522,12 @@ svg .svg2-elem-3 {
 
 svg.active .svg2-elem-3 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg2-elem-4 {
+  stroke: var(--green);
+  stroke-width: 6;
   stroke-dashoffset: 198.97810990565068px;
   stroke-dasharray: 198.97810990565068px;
   fill: transparent;
@@ -526,7 +541,7 @@ svg .svg2-elem-4 {
 
 svg.active .svg2-elem-4 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg2-elem-5 {
@@ -543,7 +558,7 @@ svg .svg2-elem-5 {
 
 svg.active .svg2-elem-5 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg2-elem-6 {
@@ -560,10 +575,12 @@ svg .svg2-elem-6 {
 
 svg.active .svg2-elem-6 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg2-elem-7 {
+  stroke: var(--green);
+  stroke-width: 6;
   stroke-dashoffset: 17.70000457763672px;
   stroke-dasharray: 17.70000457763672px;
   fill: transparent;
@@ -577,12 +594,15 @@ svg .svg2-elem-7 {
 
 svg.active .svg2-elem-7 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--green);
 }
 
 svg .svg2-elem-8 {
+  stroke: var(--gray);
+  stroke-width: 6;
   stroke-dashoffset: 658.27978515625px;
   stroke-dasharray: 658.27978515625px;
+  fill: transparent;
   -webkit-transition:
     stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s,
     fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s;
@@ -597,6 +617,8 @@ svg.active .svg2-elem-8 {
 
 /* 3 */
 svg .svg3-elem-1 {
+  stroke: var(--gray);
+  stroke-width: 6;
   stroke-dashoffset: 548.0607299804688px;
   stroke-dasharray: 548.0607299804688px;
   fill: transparent;
@@ -610,7 +632,7 @@ svg .svg3-elem-1 {
 
 svg.active .svg3-elem-1 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg3-elem-2 {
@@ -627,10 +649,12 @@ svg .svg3-elem-2 {
 
 svg.active .svg3-elem-2 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--green);
 }
 
 svg .svg3-elem-3 {
+  stroke: var(--green);
+  stroke-width: 6;
   stroke-dashoffset: 266.1602478027344px;
   stroke-dasharray: 266.1602478027344px;
   fill: transparent;
@@ -644,11 +668,12 @@ svg .svg3-elem-3 {
 
 svg.active .svg3-elem-3 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 /* 4 */
 svg .svg4-elem-1 {
+  stroke: var(--gray);
   stroke-dashoffset: 1085.0052490234375px;
   stroke-dasharray: 1085.0052490234375px;
   fill: transparent;
@@ -662,10 +687,12 @@ svg .svg4-elem-1 {
 
 svg.active .svg4-elem-1 {
   stroke-dashoffset: 0;
-  fill: rgb(0, 0, 0);
+  fill: var(--gray);
 }
 
 svg .svg4-elem-2 {
+  stroke: var(--green);
+  stroke-width: 6;
   stroke-dashoffset: 318.47930908203125px;
   stroke-dasharray: 318.47930908203125px;
   fill: transparent;
@@ -679,11 +706,13 @@ svg .svg4-elem-2 {
 
 svg.active .svg4-elem-2 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 /* 5 */
 svg .svg5-elem-1 {
+  stroke: var(--gray);
+  stroke-width: 6;
   stroke-dashoffset: 689.6768188476562px;
   stroke-dasharray: 689.6768188476562px;
   fill: transparent;
@@ -697,10 +726,11 @@ svg .svg5-elem-1 {
 
 svg.active .svg5-elem-1 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--gray-white);
 }
 
 svg .svg5-elem-2 {
+  stroke: var(--green);
   stroke-dashoffset: 1106.85107421875px;
   stroke-dasharray: 1106.85107421875px;
   fill: transparent;
@@ -714,7 +744,7 @@ svg .svg5-elem-2 {
 
 svg.active .svg5-elem-2 {
   stroke-dashoffset: 0;
-  fill: rgb(255, 255, 255);
+  fill: var(--green);
 }
 
 /*----------------- Media Queries -----------------*/
