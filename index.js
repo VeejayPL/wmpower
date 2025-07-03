@@ -2,6 +2,7 @@ const button = document.querySelector("button");
 const navMobile = document.querySelector(".nav-menu");
 const header = document.querySelector(".header");
 const itemList = document.querySelectorAll(".animation");
+const navList = document.querySelectorAll(".nav-item");
 
 const options = { threshold: 0.2 };
 
@@ -34,4 +35,13 @@ button.addEventListener("click", () => {
     navMobile.classList.remove("active");
     header.classList.remove("active");
   }
+});
+
+navList.forEach((item) => {
+  item.addEventListener("click", () => {
+    button.setAttribute("data-state", "closed");
+    button.setAttribute("aria-expanded", "false");
+    navMobile.classList.remove("active");
+    header.classList.remove("active");
+  });
 });
