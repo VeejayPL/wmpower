@@ -4,7 +4,7 @@ const header = document.querySelector(".header");
 const itemList = document.querySelectorAll(".animation");
 const navList = document.querySelectorAll(".nav-item");
 
-const options = { threshold: 0.2 };
+const options = { threshold: 0.9 };
 
 const callback = (entries, observer) => {
   entries.forEach((entry) => {
